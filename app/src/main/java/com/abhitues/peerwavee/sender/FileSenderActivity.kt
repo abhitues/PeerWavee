@@ -22,13 +22,10 @@ import com.abhitues.peerwavee.DeviceAdapter
 import com.abhitues.peerwavee.DirectBroadcastReceiver
 import com.abhitues.peerwavee.R
 import com.abhitues.peerwavee.utils.WifiP2pUtils
-import com.example.demo.BaseActivity
-import com.example.demo.DeviceAdapter
-import com.example.demo.DirectActionListener
-import com.example.demo.DirectBroadcastReceiver
-import com.example.demo.R
-import com.example.demo.utils.WifiP2pUtils
+import com.abhitues.peerwavee.BaseActivity
+import com.abhitues.peerwavee.DirectActionListener
 import kotlinx.coroutines.launch
+import com.abhitues.peerwavee.models.ViewState
 
 @SuppressLint("NotifyDataSetChanged")
 class FileSenderActivity : BaseActivity() {

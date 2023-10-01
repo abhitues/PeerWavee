@@ -9,8 +9,8 @@ import android.view.View
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat.startActivity
-import com.example.demo.receiver.FileReceiverActivity
-import com.example.demo.sender.FileSenderActivity
+import com.abhitues.peerwavee.receiver.FileReceiverActivity
+import com.abhitues.peerwavee.sender.FileSenderActivity
 
 class MainActivity : BaseActivity() {
 
@@ -66,8 +66,7 @@ class MainActivity : BaseActivity() {
     }
 
     private fun onPermissionDenied() {
-        showToast("\n" +
-                "Lack of permissions, please grant permissions first")
+        showToast("\n" + "Lack of permissions, please grant permissions first")
     }
 
     private fun allPermissionGranted(): Boolean {

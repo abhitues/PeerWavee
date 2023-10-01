@@ -12,13 +12,13 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.activity.viewModels
 import androidx.core.content.ContextCompat.getSystemService
+import androidx.core.content.ContextCompat.registerReceiver
 import androidx.lifecycle.lifecycleScope
+import com.abhitues.peerwavee.DirectBroadcastReceiver
 import com.abhitues.peerwavee.R
-import com.example.demo.R
-import com.example.demo.BaseActivity
-import com.example.demo.DirectActionListener
-import com.example.demo.DirectBroadcastReceiver
-import com.example.demo.receiver.FileReceiverViewModel
+import com.abhitues.peerwavee.BaseActivity
+import com.abhitues.peerwavee.DirectActionListener
+import com.abhitues.peerwavee.receiver.FileReceiverViewModel
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.suspendCancellableCoroutine
 
@@ -99,7 +99,7 @@ class FileReceiverActivity : BaseActivity() {
     }
 
     private fun initView() {
-        supportActionBar?.title = "文件接收端"
+        supportActionBar?.title = "File receiving end"
         btnCreateGroup.setOnClickListener {
             createGroup()
         }

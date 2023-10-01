@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.abhitues.peerwavee.utils.WifiP2pUtils
-import com.example.demo.utils.WifiP2pUtils
+
 
 interface OnItemClickListener {
 

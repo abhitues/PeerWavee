@@ -3,8 +3,15 @@ package com.abhitues.peerwavee.receiver
 import android.app.Application
 import android.content.Context
 import androidx.lifecycle.AndroidViewModel
-import com.example.demo.models.FileTransfer
+import androidx.lifecycle.viewModelScope
+import com.abhitues.peerwavee.models.FileTransfer
+import com.abhitues.peerwavee.Constants
+import com.abhitues.peerwavee.models.ViewState
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
+import kotlinx.coroutines.flow.MutableSharedFlow
+import kotlinx.coroutines.flow.SharedFlow
+import kotlinx.coroutines.launch
 import java.io.File
 import java.io.FileOutputStream
 import java.io.InputStream

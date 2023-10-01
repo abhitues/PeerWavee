@@ -4,6 +4,8 @@ import android.app.Application
 import android.content.Context
 import androidx.lifecycle.AndroidViewModel
 import com.example.demo.models.FileTransfer
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.flow.SharedFlow
 import java.io.File
 import java.io.FileOutputStream
 import java.io.InputStream
