@@ -27,6 +27,8 @@ import com.abhitues.peerwavee.DirectActionListener
 import kotlinx.coroutines.launch
 import com.abhitues.peerwavee.models.ViewState
 
+import android.widget.AdapterView.OnItemClickListener
+
 @SuppressLint("NotifyDataSetChanged")
 class FileSenderActivity : BaseActivity() {
 
@@ -189,8 +191,7 @@ class FileSenderActivity : BaseActivity() {
                 }
             })
         }
-        deviceAdapter.onItemClickListener = object : OnItemClickListener {
-            override fun onItemClick(position: Int) {
+        deviceAdapter.onItemClickListener = object : com.abhitues.peerwavee.OnItemClickListener { override fun onItemClick(position: Int) {
                 val wifiP2pDevice = wifiP2pDeviceList.getOrNull(position)
                 if (wifiP2pDevice != null) {
                     connect(wifiP2pDevice = wifiP2pDevice)

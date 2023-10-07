@@ -2,7 +2,6 @@ package com.abhitues.peerwavee
 
 import android.app.Activity
 import android.app.ProgressDialog
-import android.app.ProgressDialog.show
 import android.content.Intent
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity

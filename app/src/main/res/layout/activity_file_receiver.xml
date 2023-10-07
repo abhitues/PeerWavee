@@ -11,7 +11,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
+            android:layout_margin="15dp"
             android:text="@string/tips"
             android:textColor="@color/black"
             android:textSize="18sp" />
@@ -25,17 +25,17 @@
                 android:id="@+id/btnCreateGroup"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
+                android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:text="Create group" />
+                android:text="Create Group" />
 
             <Button
                 android:id="@+id/btnRemoveGroup"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
+                android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:text="Remove group" />
+                android:text="Remove Group" />
 
         </LinearLayout>
 
@@ -43,8 +43,8 @@
             android:id="@+id/btnStartReceive"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:text="Start listening" />
+            android:layout_margin="10dp"
+            android:text="Start Listening" />
 
         <ImageView
             android:id="@+id/ivImage"

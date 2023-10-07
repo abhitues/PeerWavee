@@ -3,12 +3,10 @@ package com.abhitues.peerwavee
 import android.Manifest
 import android.content.pm.PackageManager
 import android.os.Build
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.app.ActivityCompat
-import androidx.core.content.ContextCompat.startActivity
 import com.abhitues.peerwavee.receiver.FileReceiverActivity
 import com.abhitues.peerwavee.sender.FileSenderActivity
 

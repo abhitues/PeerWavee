@@ -12,7 +12,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
+            android:layout_margin="15dp"
             android:text="@string/tips"
             android:textColor="@color/black"
             android:textSize="18sp" />
@@ -26,15 +26,15 @@
                 android:id="@+id/btnDirectDiscover"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
+                android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:text="Search device" />
+                android:text="Search Device" />
 
             <Button
                 android:id="@+id/btnDisconnect"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
+                android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:text="Disconnect" />
 
@@ -44,9 +44,9 @@
             android:id="@+id/btnChooseFile"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
+            android:layout_margin="10dp"
             android:enabled="false"
-            android:text="Select a document" />
+            android:text="Select a Document" />
 
         <TextView
             android:layout_width="match_parent"

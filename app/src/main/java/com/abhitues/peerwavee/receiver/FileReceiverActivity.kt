@@ -11,16 +11,17 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.activity.viewModels
-import androidx.core.content.ContextCompat.getSystemService
-import androidx.core.content.ContextCompat.registerReceiver
 import androidx.lifecycle.lifecycleScope
+import coil.load
 import com.abhitues.peerwavee.DirectBroadcastReceiver
 import com.abhitues.peerwavee.R
 import com.abhitues.peerwavee.BaseActivity
 import com.abhitues.peerwavee.DirectActionListener
-import com.abhitues.peerwavee.receiver.FileReceiverViewModel
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.suspendCancellableCoroutine
+import com.abhitues.peerwavee.models.ViewState
+import kotlin.coroutines.resume
+
 
 
 class FileReceiverActivity : BaseActivity() {

@@ -6,7 +6,7 @@
     android:orientation="vertical">
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="352dp"
         android:layout_height="wrap_content"
         android:layout_margin="12dp"
         android:text="Use requires turning on Wifi, GPS and granting all permissions"
@@ -15,23 +15,23 @@
 
     <Button
         android:id="@+id/btnCheckPermission"
-        android:layout_width="match_parent"
+        android:layout_width="352dp"
         android:layout_height="wrap_content"
         android:layout_margin="12dp"
-        android:text="Check permissions" />
+        android:text="Check Permissions" />
 
     <Button
         android:id="@+id/btnSender"
-        android:layout_width="match_parent"
+        android:layout_width="352dp"
         android:layout_height="wrap_content"
         android:layout_margin="12dp"
-        android:text="FileSender" />
+        android:text="File Sender" />
 
     <Button
         android:id="@+id/btnReceiver"
-        android:layout_width="match_parent"
+        android:layout_width="352dp"
         android:layout_height="wrap_content"
         android:layout_margin="12dp"
-        android:text="FileReceiver" />
+        android:text="File Receiver" />
 
 </LinearLayout>
